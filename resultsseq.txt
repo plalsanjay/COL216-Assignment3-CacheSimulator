@@ -1,0 +1,22 @@
+Cache Simulator Results for seq_add
+===================================
+Cache parameters:
+  Set bits (s): 7 (Sets: 128)
+  Associativity (E): 4
+  Block bits (b): 4 (Block size: 16 bytes)
+  Total cache size per core: 8192 bytes
+  Random seed: 233332067
+
+Per-core Statistics:
+-------------------
+   Core ID     Read Instr    Write Instr    Total Instr   Total Cycles    Idle Cycles      Miss Rate      Evictions     Writebacks
+         0             40             20             60             60           1800         1.0000              0              0
+         1             40             20             60             60           1800         1.0000              0              0
+         2             40             20             60             60           1800         1.0000              0              0
+         3             40             20             60             60           1800         1.0000              0              0
+
+Global Statistics:
+-----------------
+Invalidations on bus: 300
+Data traffic on bus: 4800 bytes
+Maximum execution time: 1860 cycles

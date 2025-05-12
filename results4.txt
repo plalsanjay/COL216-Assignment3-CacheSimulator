@@ -1,0 +1,22 @@
+Cache Simulator Results for test4
+===================================
+Cache parameters:
+  Set bits (s): 7 (Sets: 128)
+  Associativity (E): 2
+  Block bits (b): 4 (Block size: 16 bytes)
+  Total cache size per core: 4096 bytes
+  Random seed: 523547300
+
+Per-core Statistics:
+-------------------
+   Core ID     Read Instr    Write Instr    Total Instr   Total Cycles    Idle Cycles      Miss Rate      Evictions     Writebacks
+         0              1              0              1              1             99         1.0000              0              0
+         1              1              0              1              1             99         1.0000              0              0
+         2              1              0              1              1             99         1.0000              0              0
+         3              3              2              5              5            121         0.6000              1              1
+
+Global Statistics:
+-----------------
+Invalidations on bus: 0
+Data traffic on bus: 48 bytes
+Maximum execution time: 126 cycles
